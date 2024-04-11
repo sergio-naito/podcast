@@ -5,7 +5,7 @@ import math
 # Carregar o arquivo CSV
 @st.cache_data
 def carregar_dados():
-    return pd.read_csv('podcast#1#365.csv', encoding='latin1', delimiter=';')
+    return pd.read_csv('Podcast#1#365.csv', encoding='latin1', delimiter=';')
 
 df = carregar_dados()
 
